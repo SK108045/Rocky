@@ -64,7 +64,7 @@ const about = {
     },
     calendar: {
         display: true,
-        link: 'tel:+254713574168'
+        link: 'tel:+254729465262'
     },
     intro: {
         display: true,
