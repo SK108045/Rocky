@@ -1,8 +1,8 @@
 import { InlineCode } from "@/once-ui/components";
 
 const person = {
-    firstName: 'Rocky',
-    lastName:  'Junior',
+    firstName: 'Sean',
+    lastName:  'Tabu',
     get name() {
         return `${this.firstName} ${this.lastName}`;
     },
@@ -29,7 +29,12 @@ const social = [
     {
         name: 'LinkedIn',
         icon: 'linkedin',
-        link: 'https://www.linkedin.com',
+        link: '',
+    },
+    {
+        name: 'Instagram',
+        icon: 'instagram',
+        link: 'https://www.instagram.com/tabu_sean/',
     },
     {
         name: 'X',
@@ -39,15 +44,15 @@ const social = [
     {
         name: 'Email',
         icon: 'email',
-        link: 'mailto:rockyjunior254@gmail.com',
+        link: 'mailto:seantabu@gmail.com',
     },
 ]
 
 const home = {
     label: 'Home',
-    title: `sk10`,
+    title: `Sean`,
     description: `Portfolio website showcasing my work as a ${person.role}`,
-    headline: <>Hi, I'm Rocky</>,
+    headline: <>Hi, I'm Sean</>,
     subline: <>I specialize in building robust enterprise applications and scalable microservices. Passionate about clean architecture and delivering high-performance solutions that drive business value.</>
 }
 
@@ -64,7 +69,7 @@ const about = {
     },
     calendar: {
         display: true,
-        link: 'tel:+254729465262'
+        link: 'tel:+254717797420'
     },
     intro: {
         display: true,
@@ -76,8 +81,8 @@ const about = {
         title: 'Work Experience',
         experiences: [
             {
-                company: <a href="https://simkafire.com" target="_blank" rel="noopener noreferrer">Simka Technologies Fire Services</a>,
-                timeframe: 'Mar 2024 - Aug 2024',
+                company: <a href="#" target="_blank" rel="noopener noreferrer">Simka Technologies Fire Services</a>,
+                timeframe: 'Mar 2025 - Aug 2025',
                 role: 'Software Developer',
                 achievements: [
                     <>Developed a comprehensive mobile app, web app, and management system to streamline operations, successfully led the migration from a legacy system to modern infrastructure, and maintained both frontend and backend systems for maximum efficiency.</>
@@ -94,8 +99,8 @@ const about = {
             },
             {
                 company: <a href="https://aws.amazon.com" target="_blank" rel="noopener noreferrer">Amazon Web Services (AWS)</a>,
-                timeframe: 'Mar 2024 - Aug 2024',
-                timeframe: 'Aug 2024 - Present', 
+                timeframe: 'Mar 2025 - Aug 2025',
+                timeframe: 'Aug 2025 - Present', 
                 role: 'Cloud Applications Engineer (Trainee)',
                 achievements: [
                     <>Built and deployed a scalable Task Management App on AWS using EC2, S3, and RDS with real-time updates via WebSockets and auto-scaling for high performance, implemented a secure VPN solution with OpenVPN Access Server on AWS EC2 (documented on GitHub), and created comprehensive documentation and deployment guides for team knowledge sharing.</>
@@ -104,8 +109,8 @@ const about = {
             },
             {
                 company: <a href="https://cloud.google.com" target="_blank" rel="noopener noreferrer">Google Cloud</a>,
-                timeframe: 'Mar 2024 - Aug 2024',
-                timeframe: 'Jul 2024 - Dec 2024',
+                timeframe: 'Mar 2025 - Aug 2025',
+                timeframe: 'Jul 2025 - Dec 2025',
                 role: 'AI Solutions Developer',
                 achievements: [
                     <>Developed AI-powered solutions on Google Cloud to automate tasks and enhance user experiences, created a Twitter bot using Google Vertex AI that gained 300+ followers in one month, and built an AI Conversational Agent with real-time NLP and audio playback capabilities.</>
